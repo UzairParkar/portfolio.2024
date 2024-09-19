@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" id="og">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        id="cons">
+</head>
+
+<body>
+    <div id="grid-container">
+        <header>
+            <div class="header-one">
+                <h1>Curriculum Vitae</h1>
+            </div>
+            <div class="header-two">
+                <p>WORKSKINS</p>
+                <button id="Mode1" onclick="dyna()">White</button>
+                <button id="Mode2" onclick="lightup()">Lighten</button>
+                <button id="Mode3" onclick="revert()">Original</button>
+            </div>
+        </header>
+        <nav>
+            <div class="logo">
+                <h1>UR</h1>
+            </div>
+            <ul id="navul" class="">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="action">
+                <button onclick="menuactive()"><span class="material-symbols-outlined">
+                        menu
+                    </span></button>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="container--home">
+                <div class="container-lft">
+                    <img src="img4cv.avif" alt="this is a image">
+                </div>
+                <div class="container-rht">
+                    <h1>HI, I AM UZAIR</h1>
+                    <p>I am a front-end web-developer</p>
+                </div>
+                <div class="empty1"></div>
+            </div>
+            <div class="home-contain">
+                <p>Check out what i have been upto</p>
+                <button>Projects</button>
+            </div>
+
+        </section>
+        <section id="about">
+            <div class="abt--container">
+                <div class="abt-left">
+                    <h3>Introduction</h3>
+                    <p>Hello I am Uzair, I am currently studying web-development and am on my road to become a full
+                        stack developer. I am learning front-end development as well as transitioning into the back-end
+                        alongside it.</p>
+                    <h2>My interests</h2>
+                    <ul>
+                        <li>Web-Designing</li>
+                        <div class="empty1"></div>
+                        <li>User-Interface</li>
+                    </ul>
+                </div>
+                <div class="abt-right">
+                    <h3>Background</h3>
+                    <p>I first came across coding when i was still in school. Back then I wasn't familiar with coding or
+                        rather the internet as a whole, but that changed as I kept on become more and more tech savy. I
+                        came across programmoing while surfing online nearly seven years after I first learned of
+                        coding. The more I looked into it the more my priorities changed and I knew what skill I wanted
+                        to learn.</p>
+                    <h2>My interests</h2>
+                    <ul>
+                        <li>Game-Development</li>
+                        <li>User-Experience</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills-container">
+                <div class="skills-card1">
+                    <h4>HTML5</h4>
+                    <p> I know how to create a basic html structure and intigrate css and javascript on it.</p>
+                    <p>I can also work with semantic elements for better search engine optimization and assesibiliy.</p>
+                </div>
+                <div class="empty1"></div>
+                <div class="skills-card2">
+                    <h4>CSS</h4>
+                    <p>I know how to style a html document and can use css to bring my code to life.</p>
+                    <p>I know how to style a html document and can use css to bring my code to life.</p>
+                </div>
+                <div class="skills-card3">
+                    <h4>Javascript</h4>
+                    <p>Apart from Html and Css I am also familiar with javascript and can add functionalities to a
+                        website.</p>
+                    <p>I know javascript dom and can apply funtions to the elements for better user interface and
+                        assesibiliy.</p>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="edu--container">
+                <div class="edu-top">
+                    <table border="2px">
+                        <thead>
+                            <th colspan="5">Qualifications</th>
+                        <tr>
+                        <th>Level</th>
+                        <th>Institution/University</th>
+                        <th>Year</th>
+                        <th>Certification</th>
+                        <th>Score</th>
+                        </tr>
+                        <tr>
+                            <td>Graduation</td>
+                            <td>Mumbai University, Mumbai</td>
+                            <td>2024-</td>
+                            <div class="empty1"></div>
+                            <td>-Na-</td>
+                            <td>-Na-</td>
+                        </tr>
+                        <tr><td>Graduation</td>
+                            <td>Kj Somaiya College of Arts and Commerce, Mumbai</td>
+                            <td>2021-2023</td>
+                            <td>-Na-</td>
+                            <td>-Na-</td>
+                        </tr>
+                        <div class="empty2"></div>
+                        <tr>
+                            <td>HSC</td>
+                            <td>Kj Somaiya College of Arts and Commerce, Mumbai</td>
+                            <td>2019-2021</td>
+                            <td>HSC,Commerce</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>Our Lady Of Good Counsel High School, Mumbai</td>
+                            <td>2019</td>
+                            <td>Secondary Education</td>
+                            <td>66%</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="edu-bottom">
+                    <p>I have cleared secondary and higher secondary education and as of 2024 am pursuing for a bachleor of arts degree.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-one">
+                    <ul>
+                        <li><a href="tel:+919324121458"><span class="material-symbols-outlined">
+                                    call
+                                </span></a></li>
+                        <li><a href="mailto:uzairparkar1@gmail.com"><span class="material-symbols-outlined">
+                                    mail
+                                </span></a></li>
+                                <div class="empty1"></div>
+                        <li><a href="https://www.linkedin.com/in/uzair-parkar-862945324/"><span
+                                    class="material-symbols-outlined">
+                                    badge
+                                </span></a></li>
+                    </ul>
+                </div>
+                <div class="contact-two">
+                    <form action="" id="contactform">
+                        <table border="1px" style="border-color: transparent;">
+                            <tr>
+                                <th colspan="2">Contact Information</th>
+                            </tr>
+                            <tr>
+                                <td><label for="fn">FirstName:</label></td>
+                                <td><input type="text" id="fn" name="fn"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="sn">LastName:</label></td>
+                                <td><input type="text" id="sn" name="sn"></td>
+                            </tr>
+                            <tr>
+                                <div class="empty1"></div>
+                                <td><label for="hp">Phone:</label></td>
+                                <td><input type="number" id="hp" name="hp" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="age">Age:</label></td>
+                                <td><input type="number" id="age" name="age" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="em">Email:</label></td>
+                                <td><input type="email" id="em" name="em" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Gender:</label></td>
+                                <td><label for="gend">Male</label>
+                                <input type="radio" id="male" name="gend"required>
+                                <label for="gend">Female</label>
+                                <input type="radio" id="female" name="gend"required>
+                                <label for="gend">other</label>
+                                <input type="radio" id="other" name="gend"required></td>
+
+                            </tr>
+                        </table>
+                        <div class="empty1"></div>
+                        <div class="button-container-f">
+                        <button type="button" value="">submit
+                        <button type="reset" value="">Reset
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <footer>Portfolio website &copy; @UzairParkar, 2024
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
