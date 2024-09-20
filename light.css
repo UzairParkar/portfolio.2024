@@ -130,10 +130,16 @@ nav li,nav a {
     }
     #home {
         flex-direction: column;
+        height: 100vh;
     }
 
     .container--home{
         flex-direction: column;
+    }
+
+    .home-contain{
+        flex-direction: column;
+        margin-top: 5em;
     }
     }
 
